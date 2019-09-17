@@ -83,9 +83,12 @@ addRestaurant = (event) => {
 
   render() {
     return (
+      <body>
       <center>
       <div class="container-fluid">
-        <h1>Where Should We Eat Lunch Today?</h1>
+        <br />
+          <h1>Where Should We Eat Lunch Today?</h1>
+        <br />
       <div class="row">
       <div class="col-md-4">
         <h2>Add A Restaurant</h2>    
@@ -94,13 +97,15 @@ addRestaurant = (event) => {
           onChange={this.handleChangeFor('name')}
           placeholder="restaurant name">
         </input>
+        <br />
         <input 
           value={this.state.restaurants.cuisine}       onChange={this.handleChangeFor('cuisine')}
           placeholder="cuisine type">
         </input>
+        <br />
         <button 
           onClick={this.addRestaurant}
-          className="btn btn-success">submit
+          className="submitBtn">Add Restaurant
         </button>
         </div>
         <Restaurants restaurants={this.state.restaurants} deleteRestaurant={this.handleDeleteRestaurant}/>
@@ -109,6 +114,7 @@ addRestaurant = (event) => {
         <Vote restaurants={this.state.restaurants} castVote={this.handleRestaurantVote}/>
       </div>
       </center>
+      </body>
     );
   }
 }

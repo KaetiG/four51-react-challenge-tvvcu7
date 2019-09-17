@@ -25,7 +25,7 @@ const Results = props => {
                 <td>{index + 1}</td>
                 <td>{restaurant.name}</td>
                 <td>{restaurant.votes}</td>
-                <td>{(restaurant.votes / totalVotes).toPrecision(2) * 100}</td>
+                <td>{(restaurant.votes / totalVotes).toPrecision(2) * 100}%</td>
               </tr>
             )
           })}

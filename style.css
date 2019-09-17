@@ -1,7 +1,82 @@
 h1, p {
   font-family: Lato;
+  font-weight: bold;
+}
+
+p {
+  font-size: 16pt;
+  padding-top: 5px; 
+}
+
+.submitBtn {
+  margin: 3px;
+  border-radius: 5px;
+  background-color: #416F52;
+  color: white;
+  height: 40px;
+  width: 200px;
+  padding-left: 5px;
+  outline: none;
+  font-family: Lato;
+  font-size: 14pt;
+  text-align: center;
+}
+
+.deleteBtn {
+  margin: 3px;
+  border-radius: 5px;
+  background-color: #6E2929;
+  color: white;
+  height: 40px;
+  width: 85px;
+  padding-left: 5px;
+  outline: none;
+  font-family: Lato;
+  font-size: 14pt;
+  text-align: center;
+  float: right;
 }
 
 .voteBtn {
-  padding: 10px;
+  margin: 3px;
+  border-radius: 5px;
+  background-color: #34495E;
+  color: white;
+  height: 40px;
+  padding-left: 5px;
+  outline: none;
+  width: 150px;
+  font-family: Lato;
+  font-size: 14pt;
+  text-align: center;
+}
+
+body {
+  background-color: #AEB6BF;
+}
+
+input {
+  border-radius: 5px;
+  outline: none;
+  height: 40px;
+  width: 200px;
+  margin: 3px;
+  background-color: #EBEDEF;
+  color: #34495E;
+  font-family: Lato;
+  font-size: 14pt;
+  text-align: center;
+}
+
+.restName {
+  color: #283747;
+  padding-left: 5px;
+}
+
+.cuisineText {
+  padding-left: 10px;
+}
+
+.deleteSpan {
+  text-align: right;
 }
