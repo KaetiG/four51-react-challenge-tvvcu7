@@ -4,7 +4,7 @@ const Votes = props => {
   const { restaurants, castVote } = props;
   return (
     <React.Fragment>
-    <div class="container-fluid">
+    <div class="container-fluid" className="voteDiv">
     <div class="row" class="col-sm-10">
       <h2>Cast Your Vote!</h2>
     </div>

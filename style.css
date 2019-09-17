@@ -53,7 +53,7 @@ p {
 
 body {
   background-color: #AFC1D5;
-  margin: 10px;
+  margin: 30px;
 }
 
 input {
@@ -85,13 +85,14 @@ input {
 .restaurantListDiv {
   background-color: #D5D8DC;
   padding: 30px;
-  margin: 10px;
+  margin: 5px;
   border-radius: 12px;
 }
 
 .addRestDiv {
   background-color: #D5D8DC;
   padding: 30px;
+  margin: 5px;
   border-radius: 12px;
   height: 300px;
 }
@@ -99,8 +100,13 @@ input {
 .resultsDiv {
   background-color: #D5D8DC;
   padding: 30px;
-  margin: 10px;
+  margin: 5px;
   border-radius: 12px;
+}
+
+.voteDiv {
+  padding: 30px;
+  margin: 5px;
 }
 
 table {
