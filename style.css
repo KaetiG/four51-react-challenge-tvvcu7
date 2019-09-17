@@ -52,7 +52,8 @@ p {
 }
 
 body {
-  background-color: #AEB6BF;
+  background-color: #AFC1D5;
+  margin: 10px;
 }
 
 input {
@@ -79,4 +80,29 @@ input {
 
 .deleteSpan {
   text-align: right;
+}
+
+.restaurantListDiv {
+  background-color: #D5D8DC;
+  padding: 30px;
+  margin: 10px;
+  border-radius: 12px;
+}
+
+.addRestDiv {
+  background-color: #D5D8DC;
+  padding: 30px;
+  border-radius: 12px;
+  height: 300px;
+}
+
+.resultsDiv {
+  background-color: #D5D8DC;
+  padding: 30px;
+  margin: 10px;
+  border-radius: 12px;
+}
+
+table {
+  text-align: center;
 }

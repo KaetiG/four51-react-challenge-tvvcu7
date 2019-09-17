@@ -5,7 +5,7 @@ const Results = props => {
   restaurants.sort((a, b) => parseFloat(b.votes) - parseFloat(a.votes));
   return (
     <React.Fragment>
-    <div class="col-sm-4">
+    <div class="col-sm-4" className="resultsDiv">
       <h2>Live Results</h2>
     
     <div class="row">

@@ -4,7 +4,7 @@ const Restaurants = props => {
   const { restaurants, deleteRestaurant } = props;
   return (
     <React.Fragment>
-      <div class="col-sm-4">
+      <div class="col-sm-4" className="restaurantListDiv">
         <h2>Restaurants</h2>
         
         

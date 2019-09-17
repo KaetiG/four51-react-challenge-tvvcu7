@@ -90,7 +90,7 @@ addRestaurant = (event) => {
           <h1>Where Should We Eat Lunch Today?</h1>
         <br />
       <div class="row">
-      <div class="col-md-4">
+      <div class="col-md-4" className="addRestDiv">
         <h2>Add A Restaurant</h2>    
         <input 
           value={this.state.restaurants.name} 
