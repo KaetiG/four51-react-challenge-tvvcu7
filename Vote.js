@@ -6,7 +6,7 @@ const Votes = props => {
     <React.Fragment>
     <div class="container-fluid" className="voteDiv">
     <div class="row" class="col-sm-10">
-      <h2>Cast Your Vote!</h2>
+      <h2 className="castVoteHeader">Cast Your Vote!</h2>
     </div>
     <div class="row" class="col-sm-10">   
       {restaurants.map((restaurant, index) => {
